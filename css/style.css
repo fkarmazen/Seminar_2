@@ -1,0 +1,242 @@
+.body{
+	background-image: url("../photos/body2.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+	background-size:cover;
+}
+.wrapper{
+	max-width:960px;
+	margin:auto;
+	margin-top:10px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.header{
+	margin-top:15px;
+	min-height:100px;
+}
+.logo{
+	float:left;
+}
+.nav{
+	height:70px;
+	font-size: 15px;
+	float:left;
+}
+.nav li{
+	display: inline;
+}
+.nav a{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#navigacija a:hover { 
+
+color:white;
+background: #43cea2;
+background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
+background: linear-gradient(to bottom, #43cea2 , #185a9d); 
+        
+
+}
+
+.login_forma{
+	float:right;
+	margin-top: 8px;
+}
+.navbar {
+	 font-family: myFont;
+}
+
+
+.header_slika{
+	width:100%;
+	height:480px;
+	margin-top: 0px;
+}
+.header_slika img{
+	border-radius: 7px;
+	box-shadow: 7px 7px 5px #B8B8B8;
+	opacity: 0.90;
+}
+.main{
+	clear:both;
+	width:700px;
+	margin:auto;
+	margin-top:30px;
+	background-color: #0073e6;
+	border-radius: 6px;
+	overflow: auto;
+
+}
+
+.index_jedrilice, .index_jetski{
+	width: 350px;
+	height:auto;
+	float:left;
+	margin: 20px 0px;
+
+
+}
+.slika_index{
+	width: 300px;
+	margin:auto;
+}
+
+.slika_index img{
+	border-radius: 7px;
+	box-shadow: 7px 7px 5px #B8B8B8;
+	opacity: 0.90;
+}
+
+.index_odabir{
+	width: 280px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.button{
+	width:200px;
+	height:40px;
+	background: linear-gradient(to bottom, rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin:auto;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.button a{
+	text-decoration: none;
+	list-style-type: none;
+	padding:10px 23px 10px 23px;
+}
+
+.button1{
+	width:150px;
+	height:40px;
+	background: linear-gradient(to bottom, rgba(210,223,237,1) 0%,rgba(200,215,235,1) 26%,rgba(190,208,234,1) 51%,rgba(166,192,227,1) 51%,rgba(175,199,232,1) 62%,rgba(186,208,239,1) 75%,rgba(153,181,219,1) 88%,rgba(121,155,200,1) 100%);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin:auto;
+    cursor: pointer;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+.button1 a{
+	text-decoration: none;
+	list-style-type: none;
+	padding:10px;
+}
+
+.footer{
+	width: 100%;
+	height:40px;
+	text-align: center;
+	font-style: italic;
+	background-color: black;
+	color:white;
+	margin: auto;
+	clear:both;
+}
+
+
+.main_kontakt{
+	clear:both;
+	margin-top:20px;
+	width:960px;
+	min-height: 500px;
+	margin:auto;
+	margin-top:30px;
+}
+.info{
+	width: 430px;
+	margin:auto;
+	float:left;
+	padding: 20px;
+}
+.mapa{
+	margin-top: 10px;
+	width: 470px;
+	float:right;
+	margin:auto;
+
+}
+.main_destinacije{
+	clear:both;
+	margin-top:20px;
+	width:100%;
+	margin:auto;
+	height: auto;
+	overflow: auto;
+}
+.destinacije_ponuda{
+	width:630px;
+	overflow: auto;
+}
+.ponuda{
+	width:630px;
+	float:left;
+	min-height: 280px;
+}
+
+.img_destinacije{
+	margin-left:10px;
+	width: 310px;
+	float:left;
+	min-height: 280px;
+}
+.img_destinacije img{
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #0073e6;
+
+}
+.text_destinacije{
+	margin-left: 10px;
+	padding:5px 15px 10px 15px;
+	width:270px;
+	float:left;
+}
+.fixed_rezervacija{
+	padding:15px;
+	width:285px;
+	float:right;
+	background: #43cea2;
+	background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
+	background: linear-gradient(to bottom, #43cea2 , #185a9d); 
+        
+	border-radius: 7px;
+	margin-right:25px;
+}
+
+.plovila_ponuda{
+	width:630px;
+	overflow: auto;
+}
+.img_plovila{
+	margin-left:10px;
+	width: 310px;
+	float:left;
+	min-height: 280px;
+}
+.img_plovila img{
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #0073e6;
+}
+.text_plovila{
+	margin-left: 10px;
+	padding:5px 15px 10px 15px;
+	width:270px;
+	float:left;	
+}
